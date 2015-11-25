@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C31f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -45,6 +45,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsp-96-IvY">
+                                <rect key="frame" x="71" y="435" width="31" height="30"/>
+                                <animations/>
+                                <state key="normal" title="pg.2"/>
+                                <connections>
+                                    <segue destination="267-At-Q19" kind="show" id="WVX-qi-chh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -59,6 +67,58 @@
             </objects>
             <point key="canvasLocation" x="245" y="301"/>
         </scene>
+        <!--View Controller3-->
+        <scene sceneID="JYc-Ru-uBK">
+            <objects>
+                <viewController id="LQH-Zn-RLR" customClass="ViewController3" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ERg-Ju-TqP"/>
+                        <viewControllerLayoutGuide type="bottom" id="sj6-9H-65b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="deP-wW-C6l">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXN-jr-LS5">
+                                <rect key="frame" x="28" y="285" width="48" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Farting"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="pQd-Wp-YOm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMI-xU-0oo">
+                                <rect key="frame" x="16" y="362" width="74" height="30"/>
+                                <animations/>
+                                <state key="normal" title="tiger game"/>
+                                <connections>
+                                    <segue destination="267-At-Q19" kind="show" id="S7b-6r-F6p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is my worst nightmare about?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF7-2w-cZ4">
+                                <rect key="frame" x="16" y="236" width="270" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXV-fz-khH">
+                                <rect key="frame" x="28" y="324" width="48" height="30"/>
+                                <animations/>
+                                <state key="normal" title="snakes"/>
+                                <connections>
+                                    <segue destination="iRp-H6-PXU" kind="show" id="pkB-7Q-4hy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLM-Gb-6FM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="974"/>
+        </scene>
         <!--View Controller Two-->
         <scene sceneID="lcu-al-KWF">
             <objects>
@@ -70,6 +130,46 @@
                     <view key="view" contentMode="scaleToFill" id="HLG-rA-bD6">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pg.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BO-Ad-xCQ">
+                                <rect key="frame" x="20" y="28" width="35" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpD-pr-HEz">
+                                <rect key="frame" x="28" y="322" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ZId-MT-J4Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k10-Ar-EOZ">
+                                <rect key="frame" x="29" y="369" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <segue destination="LQH-Zn-RLR" kind="show" id="ys0-pY-Yno"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekn-e2-coh">
+                                <rect key="frame" x="28" y="407" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <segue destination="267-At-Q19" kind="show" id="eDR-Ml-FXR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is my second favorite number?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXf-2T-hNE">
+                                <rect key="frame" x="39" y="285" width="279" height="31"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -78,5 +178,62 @@
             </objects>
             <point key="canvasLocation" x="919" y="301"/>
         </scene>
+        <!--View Controller4-->
+        <scene sceneID="uKx-ee-O18">
+            <objects>
+                <viewController id="iRp-H6-PXU" customClass="ViewController4" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U2o-UG-rfF"/>
+                        <viewControllerLayoutGuide type="bottom" id="AfT-CA-Qvd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ou7-8t-FSw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHy-DW-Bdn">
+                                <rect key="frame" x="28" y="256" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="pg.1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LJt-Tu-eTO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Df-qx-FZi">
+                                <rect key="frame" x="28" y="301" width="31" height="30"/>
+                                <animations/>
+                                <state key="normal" title="pg.2"/>
+                                <connections>
+                                    <segue destination="267-At-Q19" kind="show" id="4EB-X0-gip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHh-eq-3Ue">
+                                <rect key="frame" x="28" y="339" width="31" height="30"/>
+                                <animations/>
+                                <state key="normal" title="pg.3"/>
+                                <connections>
+                                    <segue destination="LQH-Zn-RLR" kind="show" id="OJg-1i-qWk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good Job! You Finished!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3r-Ml-6Nt">
+                                <rect key="frame" x="14" y="121" width="186" height="122"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j1P-yi-GtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="974"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OJg-1i-qWk"/>
+        <segue reference="LJt-Tu-eTO"/>
+        <segue reference="WVX-qi-chh"/>
+    </inferredMetricsTieBreakers>
 </document>
